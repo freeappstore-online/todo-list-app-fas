@@ -1,0 +1,14 @@
+{
+  "name": "todo-list-app-fas",
+  "private": true,
+  "packageManager": "pnpm@10.30.3",
+  "engines": { "node": ">=22" },
+  "pnpm": { "onlyBuiltDependencies": ["esbuild"] },
+  "scripts": {
+    "dev": "pnpm --filter @todo-list-app-fas/web dev",
+    "build": "pnpm --filter @todo-list-app-fas/web build",
+    "preview": "pnpm --filter @todo-list-app-fas/web preview",
+    "typecheck": "pnpm --filter @todo-list-app-fas/web exec tsc -b",
+    "test": "pnpm --filter @todo-list-app-fas/web test"
+  }
+}
