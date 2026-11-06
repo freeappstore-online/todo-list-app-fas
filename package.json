@@ -8,7 +8,6 @@
     "dev": "pnpm --filter @todo-list-app-fas/web dev",
     "build": "pnpm --filter @todo-list-app-fas/web build",
     "preview": "pnpm --filter @todo-list-app-fas/web preview",
-    "typecheck": "pnpm --filter @todo-list-app-fas/web exec tsc -b",
-    "test": "pnpm --filter @todo-list-app-fas/web test"
+    "typecheck": "pnpm --filter @todo-list-app-fas/web exec tsc -b"
   }
 }
